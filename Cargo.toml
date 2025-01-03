@@ -1,0 +1,18 @@
+[package]
+name = "rectilinear_decomposition"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+fingertrees = "0.2.11"
+hopcroft-karp = "0.2.1"
+macroquad = "0.4.13"
+rand = "0.8.5"
+voracious_radix_sort = { version = "1.2.0", features = ["voracious_multithread"] }
+
+[dev-dependencies]
+criterion = { version = "0.5.1", features = ["html_reports"] }
+
+[[bench]]
+name = "benchmark"
+harness = false
