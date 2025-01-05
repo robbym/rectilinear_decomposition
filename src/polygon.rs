@@ -284,7 +284,7 @@ impl RectilinearPolygon {
             if let Some(v_chord) = vs[i].v_chord {
                 let outer_a = vs[i].v_neighbor.unwrap();
                 let outer_b = vs[v_chord].v_neighbor.unwrap();
-                
+
                 vs[outer_a].v_neighbor = Some(outer_b);
                 vs[outer_b].v_neighbor = Some(outer_a);
             }

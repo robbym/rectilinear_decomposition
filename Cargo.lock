@@ -233,12 +233,6 @@ dependencies = [
 ]
 
 [[package]]
-name = "fingertrees"
-version = "0.2.11"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "02049e7e9ecc9d27772340482b511de0cace5ce250a6256d405aa6e76e155cf7"
-
-[[package]]
 name = "flate2"
 version = "1.0.35"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -256,15 +250,6 @@ checksum = "0793f5137567643cf65ea42043a538804ff0fbf288649e2141442b602d81f9bc"
 dependencies = [
  "hashbrown",
  "ttf-parser",
-]
-
-[[package]]
-name = "fxhash"
-version = "0.2.1"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "c31b6d751ae2c7f11320402d34e41349dd1016f8d5d45e48c4312bc8625af50c"
-dependencies = [
- "byteorder",
 ]
 
 [[package]]
@@ -308,15 +293,6 @@ name = "hermit-abi"
 version = "0.4.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "fbf6a919d6cf397374f7dfeeea91d974c7c0a7221d0d0f4f20d859d329e53fcc"
-
-[[package]]
-name = "hopcroft-karp"
-version = "0.2.1"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "a72f3d9ba936766ff5d1c23504b6da754e4eb882e36f390e57a257214cb2762e"
-dependencies = [
- "fxhash",
-]
 
 [[package]]
 name = "image"
@@ -602,8 +578,6 @@ name = "rectilinear_decomposition"
 version = "0.1.0"
 dependencies = [
  "criterion",
- "fingertrees",
- "hopcroft-karp",
  "macroquad",
  "rand",
  "voracious_radix_sort",
